@@ -1,0 +1,5 @@
+const response = await fetch("config.json"); 
+
+{
+    "API_KEY": "cc8d4149e9ea4ef3a36b22fe84e75440"
+}
