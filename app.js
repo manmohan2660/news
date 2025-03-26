@@ -1,8 +1,6 @@
 let carddata = document.querySelector(".carddata");
 let searchbtn = document.getElementById("searchbtn");
 let inputdata = document.getElementById("inputdata");
-const key = process.env.API_KEY; // Get API key securely
-
 // Function to load API key from config.json
 const getAPIKey = async () => {
     const response = await fetch("./config.json");
